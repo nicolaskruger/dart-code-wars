@@ -1,5 +1,3 @@
-import 'dart:indexed_db';
-
 List<int> rowWeights(List<int> arr) {
   int index = 0;
   return arr.fold([0, 0], (previousValue, element) {
